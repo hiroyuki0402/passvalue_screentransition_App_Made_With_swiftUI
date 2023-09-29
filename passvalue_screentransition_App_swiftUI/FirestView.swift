@@ -8,13 +8,19 @@
 import SwiftUI
 
 struct FirestView: View {
+
+    let result: Int
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text(String(result))
+            .font(.system(size: 50, weight: .bold))
     }
 }
 
 struct FirestView_Previews: PreviewProvider {
     static var previews: some View {
-        FirestView()
+        FirestView(result: 50) // 仮の計算結果を渡してプレビュー
+            .previewLayout(.sizeThatFits)
+            .padding()
     }
 }
