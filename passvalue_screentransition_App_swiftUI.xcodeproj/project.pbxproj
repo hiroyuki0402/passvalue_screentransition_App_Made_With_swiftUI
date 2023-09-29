@@ -11,6 +11,8 @@
 		3B8F0AF82AC6F4BB0008D61C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8F0AF72AC6F4BB0008D61C /* ContentView.swift */; };
 		3B8F0AFA2AC6F4BC0008D61C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B8F0AF92AC6F4BC0008D61C /* Assets.xcassets */; };
 		3B8F0AFD2AC6F4BC0008D61C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B8F0AFC2AC6F4BC0008D61C /* Preview Assets.xcassets */; };
+		3B8F0B042AC6F5700008D61C /* FirestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8F0B032AC6F5700008D61C /* FirestView.swift */; };
+		3B8F0B062AC6F5890008D61C /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8F0B052AC6F5890008D61C /* SecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		3B8F0AF72AC6F4BB0008D61C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3B8F0AF92AC6F4BC0008D61C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B8F0AFC2AC6F4BC0008D61C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3B8F0B032AC6F5700008D61C /* FirestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestView.swift; sourceTree = "<group>"; };
+		3B8F0B052AC6F5890008D61C /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				3B8F0AF52AC6F4BB0008D61C /* passvalue_screentransition_App_swiftUIApp.swift */,
+				3B8F0B052AC6F5890008D61C /* SecondView.swift */,
+				3B8F0B032AC6F5700008D61C /* FirestView.swift */,
 				3B8F0AF72AC6F4BB0008D61C /* ContentView.swift */,
 				3B8F0AF92AC6F4BC0008D61C /* Assets.xcassets */,
 				3B8F0AFB2AC6F4BC0008D61C /* Preview Content */,
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B8F0B042AC6F5700008D61C /* FirestView.swift in Sources */,
 				3B8F0AF82AC6F4BB0008D61C /* ContentView.swift in Sources */,
+				3B8F0B062AC6F5890008D61C /* SecondView.swift in Sources */,
 				3B8F0AF62AC6F4BB0008D61C /* passvalue_screentransition_App_swiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
