@@ -11,7 +11,8 @@ import SwiftUI
 struct passvalue_screentransition_App_swiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SecondView()
+                .preferredColorScheme(.light)
         }
     }
 }
